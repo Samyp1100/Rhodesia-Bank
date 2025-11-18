@@ -1,0 +1,64 @@
+.home-container {
+  min-height: 100vh;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 100px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  margin-bottom: 80px;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section .lead {
+  font-size: 1.4rem;
+  opacity: 0.95;
+}
+
+.features-section {
+  padding: 40px 0 80px;
+}
+
+.feature-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #667eea;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-outline-primary {
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: white;
+  color: #667eea;
+  transform: scale(1.05);
+}
